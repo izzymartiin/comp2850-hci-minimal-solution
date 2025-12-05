@@ -1,80 +1,81 @@
-# Pilot [#] Notes Template
+# Pilot [1] Notes 
 
-**Session ID**: P#_______
-**Date**: [YYYY-MM-DD]
-**Browser**: [Chrome/Firefox/Safari]
-**JS Mode**: [js-on / js-off]
-**Assistive Tech**: [None / NVDA / VoiceOver / keyboard-only]
-**Input Method**: [Mouse / Keyboard / Touch]
+**Session ID**: P1_l2m6 
+**Date**: [2025-12-05] 
+**Browser**: [Firefox] 
+**JS Mode**: [js-on] 
+**Assistive Tech**: [None] 
+**Input Method**: [Mouse/Keyboard] 
 
----
+--- 
 
-## Task 3: Add Task (Buy milk)
-- **Start**: [HH:MM:SS]
-- **End**: [HH:MM:SS]
-- **Duration**: [##s]
-- **Outcome**: [Success / Partial / Failure]
-- **Errors**: [None / "Title is required" / Other]
-- **Confidence**: [1-5]
-- **Observations**:
-  - [e.g., "Pilot clicked 'Add' button immediately; no hesitation"]
-  - [e.g., "Validation error triggered; pilot read message and corrected"]
+## Task 1: Delete Task (2850 Project 1) 
+- **Start**: [12:05:04] 
+- **End**: [12:05:11] 
+- **Duration**: [6.49s]
+- **Outcome**: [Success] 
+- **Errors**: [None] 
+- **Confidence**: [4] 
+- **Observations**: 
+- [Pilot scrolled down to find task and clicked 'Delete' button with some hesitation] 
 
----
+--- 
 
-## Task 1: Filter Tasks (Show incomplete)
-- **Start**: [HH:MM:SS]
-- **End**: [HH:MM:SS]
-- **Duration**: [##s]
-- **Outcome**: [Success / Partial / Failure]
-- **Errors**: [None / Other]
-- **Confidence**: [1-5]
-- **Observations**:
-  - [e.g., "Pilot used dropdown; filter applied instantly (HTMX)"]
+## Task 2: Add Task (2850 Project 2) 
+- **Start**: [12:05:31] 
+- **End**: [12:05:40] 
+- **Duration**: [9.78s] 
+- **Outcome**: [Success] 
+- **Errors**: [None] 
+- **Confidence**: [4] 
+- **Observations**: 
+- [Pilot located "Add" box and typed in word with no hesitation] 
+- [Pilot used enter button] 
 
----
+--- 
 
-## Task 2: Edit Task (Buy milk → Buy oat milk)
-- **Start**: [HH:MM:SS]
-- **End**: [HH:MM:SS]
-- **Duration**: [##s]
-- **Outcome**: [Success / Partial / Failure]
-- **Errors**: [None / Focus issue / SR announcement missing / Other]
-- **Confidence**: [1-5]
-- **Observations**:
-  - [e.g., "Pilot tabbed to Edit button; pressed Enter; focus moved to input"]
-  - [e.g., "NVDA announced 'Title, edit, Buy milk' correctly"]
+## Task 3: Edit Task (2850 Project 2 → 2850 Project 3) 
+- **Start**: [12:05:50] 
+- **End**: [12:05:59] 
+- **Duration**: [9.49s] 
+- **Outcome**: [Success] 
+- **Errors**: [None] 
+- **Confidence**: [4] 
+- **Observations**: 
+- [Pilot scrolled down to find task; clicked edit button; focus moved to input; clicked save button] 
 
----
+--- 
 
-## Task 4: Delete Task (Buy oat milk)
-- **Start**: [HH:MM:SS]
-- **End**: [HH:MM:SS]
-- **Duration**: [##s]
-- **Outcome**: [Success / Partial / Failure]
-- **Errors**: [None / Other]
-- **Confidence**: [1-5]
-- **Observations**:
-  - [e.g., "Pilot clicked Delete; task removed via OOB swap (no page reload)"]
+## Task 4: Filter Task (By 2850 - Show incomplete) 
+- **Start**: [12:06:05] 
+- **End**: [12:06:13] 
+- **Duration**: [8.38s] 
+- **Outcome**: [Success] 
+- **Errors**: [None] 
+- **Confidence**: [3] 
+- **Observations**: 
+- [Pilot scrolled to find filter button and clicked on it; focus moved to input; clicked apply filter] 
+- [Pilot hesitated to understand that the filter had been applied or not] 
 
----
+--- 
 
-## Overall Observations
-- **Most challenging task**: [T#]
-- **Smoothest task**: [T#]
-- **Unexpected behaviours**: [List any]
-- **Verbatim quotes** (useful for qualitative analysis):
-  - "[e.g., 'I didn't realise the edit button was there at first']"
-  - "[e.g., 'The error message was really helpful']"
+## Overall Observations 
+- **Most challenging task**: [task-04] 
+- **Smoothest task**: [task-01] 
+- **Unexpected behaviours**: [None] 
+- **Verbatim quotes** (useful for qualitative analysis): 
+- ["I didn't notice the filter had been applied, until I checked"] 
+- ['I wasn't sure the enter button would work but I was just trying to be quick"]
+- ['It took me a second to find the successful confirmation message'] 
 
----
+--- 
 
-## Technical Notes
-- **Console errors**: [None / Screenshot saved / Other]
-- **Logger entries**: [Verified in metrics.csv / Issues noted below]
-- **Network requests**: [HTMX partials / Full-page reloads / Both]
+## Technical Notes 
+- **Console errors**: [None] 
+- **Logger entries**: [Verified in metrics.csv] 
+- **Network requests**: [HTMX partials] 
 
----
+--- 
 
-**Template source**: Week 9 Lab Pack, COMP2850 (University of Leeds)
+**Template source**: Week 9 Lab Pack, COMP2850 (University of Leeds) 
 **File location**: `wk09/lab-w9/templates/pilot-notes-template.md`

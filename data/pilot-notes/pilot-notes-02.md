@@ -1,80 +1,82 @@
-# Pilot [#] Notes Template
+# Pilot [2] Notes 
 
-**Session ID**: P#_______
-**Date**: [YYYY-MM-DD]
-**Browser**: [Chrome/Firefox/Safari]
-**JS Mode**: [js-on / js-off]
-**Assistive Tech**: [None / NVDA / VoiceOver / keyboard-only]
-**Input Method**: [Mouse / Keyboard / Touch]
+**Session ID**: P2_a4m1 
+**Date**: [2025-12-05] 
+**Browser**: [Firefox] 
+**JS Mode**: [js-off] 
+**Assistive Tech**: [Keyboard-only]
+**Input Method**: [Keyboard] 
 
----
+--- 
 
-## Task 3: Add Task (Buy milk)
-- **Start**: [HH:MM:SS]
-- **End**: [HH:MM:SS]
-- **Duration**: [##s]
-- **Outcome**: [Success / Partial / Failure]
-- **Errors**: [None / "Title is required" / Other]
-- **Confidence**: [1-5]
+## Task 1: Delete Task (2850 Project 1) 
+- **Start**: [12:35:46] 
+- **End**: [12:35:55] 
+- **Duration**: [9.4s] 
+- **Outcome**: [Success] 
+- **Errors**: [None] 
+- **Confidence**: [3] 
+- **Observations**: 
+- [ Pilot tabbed through webpage "Delete" button was reached; pressed enter] 
+- [Pilot seemed hesitant and unsure of their location on the webpage] 
+
+--- 
+
+## Task 2: Add Task (2850 Project 2) 
+- **Start**: [12:36:34] 
+- **End**: [12:36:45] 
+- **Duration**: [11.11s] 
+- **Outcome**: [Success] 
+- **Errors**: [None] 
+- **Confidence**: [3] 
 - **Observations**:
-  - [e.g., "Pilot clicked 'Add' button immediately; no hesitation"]
-  - [e.g., "Validation error triggered; pilot read message and corrected"]
+- [Pilot tabbed through webpage to reach "Add" box; focused moved to input] 
+- [Pilot entered input by using enter button with no hesitation] 
 
----
+--- 
 
-## Task 1: Filter Tasks (Show incomplete)
-- **Start**: [HH:MM:SS]
-- **End**: [HH:MM:SS]
-- **Duration**: [##s]
-- **Outcome**: [Success / Partial / Failure]
-- **Errors**: [None / Other]
-- **Confidence**: [1-5]
-- **Observations**:
-  - [e.g., "Pilot used dropdown; filter applied instantly (HTMX)"]
+## Task 3: Edit Task (2850 Project 2 → 2850 Project 3) 
+- **Start**: [12:37:10] 
+- **End**: [12:38:06] 
+- **Duration**: [56s] 
+- **Outcome**: [Failure] 
+- **Errors**: [Enter button did not work to select Edit] 
+- **Confidence**: [1] 
+- **Observations**: 
+- [Pilot tabbed to Edit button; pressed Enter; page refreshed so Pilot could not input a change] 
+- [Pilot attempted this several times and tried using other keyboard inputs without success so gave up] 
 
----
+--- 
 
-## Task 2: Edit Task (Buy milk → Buy oat milk)
-- **Start**: [HH:MM:SS]
-- **End**: [HH:MM:SS]
-- **Duration**: [##s]
-- **Outcome**: [Success / Partial / Failure]
-- **Errors**: [None / Focus issue / SR announcement missing / Other]
-- **Confidence**: [1-5]
-- **Observations**:
-  - [e.g., "Pilot tabbed to Edit button; pressed Enter; focus moved to input"]
-  - [e.g., "NVDA announced 'Title, edit, Buy milk' correctly"]
+## Task 4: Filter Task (By 2850 - Show incomplete) 
+- **Start**: [12:38:29] 
+- **End**: [12:38:40] 
+- **Duration**: [10.93s] 
+- **Outcome**: [Success] 
+- **Errors**: [None] 
+- **Confidence**: [4] 
+- **Observations**: 
+- [Pilot tabbed to Filter button; focus moved to input; filter applied instantly and pilot noticed] 
 
----
+--- 
 
-## Task 4: Delete Task (Buy oat milk)
-- **Start**: [HH:MM:SS]
-- **End**: [HH:MM:SS]
-- **Duration**: [##s]
-- **Outcome**: [Success / Partial / Failure]
-- **Errors**: [None / Other]
-- **Confidence**: [1-5]
-- **Observations**:
-  - [e.g., "Pilot clicked Delete; task removed via OOB swap (no page reload)"]
+## Overall Observations 
+- **Most challenging task**: [task-03] 
+- **Smoothest task**: [task-04] 
+- **Unexpected behaviours**: [List any] 
+- **Verbatim quotes** (useful for qualitative analysis): 
+- ["Why is the edit button not working? Am I not using it right? What else can I use other than the enter button to select it?"] 
+- ["It's hard to tell sometimes what button is highlighted meaning I don't know where I am"] 
+- ["If I accidentally tab past something can I go back or do I have to go all the way through again?"] 
 
----
+--- 
 
-## Overall Observations
-- **Most challenging task**: [T#]
-- **Smoothest task**: [T#]
-- **Unexpected behaviours**: [List any]
-- **Verbatim quotes** (useful for qualitative analysis):
-  - "[e.g., 'I didn't realise the edit button was there at first']"
-  - "[e.g., 'The error message was really helpful']"
+## Technical Notes 
+- **Console errors**: [None] 
+- **Logger entries**: [Verified in metrics.csv] 
+- **Network requests**: [Full-page reloads] 
 
----
+--- 
 
-## Technical Notes
-- **Console errors**: [None / Screenshot saved / Other]
-- **Logger entries**: [Verified in metrics.csv / Issues noted below]
-- **Network requests**: [HTMX partials / Full-page reloads / Both]
-
----
-
-**Template source**: Week 9 Lab Pack, COMP2850 (University of Leeds)
-**File location**: `wk09/lab-w9/templates/pilot-notes-template.md`
+**Template source**: Week 9 Lab Pack, COMP2850 (University of Leeds) 
+**File location**: `wk09/lab-w9/templates/pilot-notes-template.md` 

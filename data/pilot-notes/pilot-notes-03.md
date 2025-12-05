@@ -1,80 +1,77 @@
-# Pilot [#] Notes Template
+# Pilot [3] Notes 
 
 **Session ID**: P3_r2y6
-**Date**: [2025-12-05]
-**Browser**: [Edge]
-**JS Mode**: [js-on]
-**Assistive Tech**: [None]
-**Input Method**: [Mouse/Keyboard]
+**Date**: [2025-12-05] 
+**Browser**: [Edge] 
+**JS Mode**: [js-on] 
+**Assistive Tech**: [None] 
+**Input Method**: [Keyboard/Mouse] 
+
+--- 
+## Task 1: Delete Task (2850 Project 1) 
+- **Start**: [15:07:59] 
+- **End**: [15:08:10] 
+- **Duration**: [10.94s] 
+- **Outcome**: [Success] 
+- **Errors**: [None] 
+- **Confidence**: [4] 
+- **Observations**: 
+- [ Pilot scrolled down to find the task; clicked Delete button; some hesitation]  
 
 ---
 
-## Task 3: Add Task (Buy milk)
-- **Start**: [HH:MM:SS]
-- **End**: [HH:MM:SS]
-- **Duration**: [##s]
-- **Outcome**: [Success / Partial / Failure]
-- **Errors**: [None / "Title is required" / Other]
-- **Confidence**: [1-5]
-- **Observations**:
-  - [e.g., "Pilot clicked 'Add' button immediately; no hesitation"]
-  - [e.g., "Validation error triggered; pilot read message and corrected"]
+## Task 2: Add Task (2850 Project 2) 
+- **Start**: [15:08:40] 
+- **End**: [15:08:49] 
+- **Duration**: [9.08s] 
+- **Outcome**: [Success] 
+- **Errors**: [None] 
+- **Confidence**: [5] 
+- **Observations**: 
+- [Pilot located and input the correct data with no hesitation] 
 
----
+--- 
 
-## Task 1: Filter Tasks (Show incomplete)
-- **Start**: [HH:MM:SS]
-- **End**: [HH:MM:SS]
-- **Duration**: [##s]
-- **Outcome**: [Success / Partial / Failure]
-- **Errors**: [None / Other]
-- **Confidence**: [1-5]
-- **Observations**:
-  - [e.g., "Pilot used dropdown; filter applied instantly (HTMX)"]
+## Task 3: Edit Task (2850 Project 2 → 2850 Project 3) 
+- **Start**: [15:09:27] 
+- **End**: [15:09:38] 
+- **Duration**: [10.86s] 
+- **Outcome**: [Success] 
+- **Errors**: [None] 
+- **Confidence**: [5] 
+- **Observations**: 
+- [Pilot scrolled to Edit button; input data; clicked save button; no hesitation ]
+- [Pilot then took a few seconds to locate the successful message]
 
----
+--- 
 
-## Task 2: Edit Task (Buy milk → Buy oat milk)
-- **Start**: [HH:MM:SS]
-- **End**: [HH:MM:SS]
-- **Duration**: [##s]
-- **Outcome**: [Success / Partial / Failure]
-- **Errors**: [None / Focus issue / SR announcement missing / Other]
-- **Confidence**: [1-5]
-- **Observations**:
-  - [e.g., "Pilot tabbed to Edit button; pressed Enter; focus moved to input"]
-  - [e.g., "NVDA announced 'Title, edit, Buy milk' correctly"]
+## Task 4: Filter Task (By 2850 - Show incomplete) 
+- **Start**: [15:10:54] 
+- **End**: [15:11:05] 
+- **Duration**: [10.86s] 
+- **Outcome**: [Success] 
+- **Errors**: [None] 
+- **Confidence**: [5] 
+- **Observations**: 
+- [Pilot scrolled to filter button; input; then selected apply filter; observed that the tasks had changed] 
 
----
+--- 
 
-## Task 4: Delete Task (Buy oat milk)
-- **Start**: [HH:MM:SS]
-- **End**: [HH:MM:SS]
-- **Duration**: [##s]
-- **Outcome**: [Success / Partial / Failure]
-- **Errors**: [None / Other]
-- **Confidence**: [1-5]
-- **Observations**:
-  - [e.g., "Pilot clicked Delete; task removed via OOB swap (no page reload)"]
+## Overall Observations 
+- **Most challenging task**: [task-03] 
+- **Smoothest task**: [task-02] 
+- **Unexpected behaviours**: [List any] 
+- **Verbatim quotes** (useful for qualitative analysis): 
+- ["I can't find the success message"]
+- ["Wait, the filter works straight away"]
+- ["I keep using the blue buttons but I guess I could just enter"] 
 
----
+--- 
+## Technical Notes 
+- **Console errors**: [None] 
+- **Logger entries**: [Verified in metrics.csv]
+- **Network requests**: [HTMX partials] 
+--- 
 
-## Overall Observations
-- **Most challenging task**: [T#]
-- **Smoothest task**: [T#]
-- **Unexpected behaviours**: [List any]
-- **Verbatim quotes** (useful for qualitative analysis):
-  - "[e.g., 'I didn't realise the edit button was there at first']"
-  - "[e.g., 'The error message was really helpful']"
-
----
-
-## Technical Notes
-- **Console errors**: [None / Screenshot saved / Other]
-- **Logger entries**: [Verified in metrics.csv / Issues noted below]
-- **Network requests**: [HTMX partials / Full-page reloads / Both]
-
----
-
-**Template source**: Week 9 Lab Pack, COMP2850 (University of Leeds)
-**File location**: `wk09/lab-w9/templates/pilot-notes-template.md`
+**Template source**: Week 9 Lab Pack, COMP2850 (University of Leeds) 
+**File location**: `wk09/lab-w9/templates/pilot-notes-template.md` 
