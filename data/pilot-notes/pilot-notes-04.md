@@ -77,4 +77,4 @@
 --- 
 
 **Template source**: Week 9 Lab Pack, COMP2850 (University of Leeds) 
-**File location**: `wk09/lab-w9/templates/pilot-notes-template.md`
+**File location**: `wk09/lab-w9/templates/pilot-notes-template.md` 
